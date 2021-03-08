@@ -1,11 +1,11 @@
 ---
 title: "Lab 6 - La Quinta is Spanish for next to Denny's, Pt. 1"
 subtitle: "Visualizing spatial data"
-author: Musab Isah
-output: pdf_document
+author: wejdan awad 
+output: html_document
 ---
 
-Student ID: 
+Student ID: 2201002744
 
 
 ```{r include = FALSE}
