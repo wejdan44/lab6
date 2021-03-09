@@ -84,9 +84,10 @@ Knit, *commit, and push your changes to GitHub with an appropriate commit messag
 
 
 4.  Which states have the most and fewest Denny's locations? What about La Quinta? Is this surprising? Why or why not?
+Denny's the most =CA and the fewest= DE
+La Quinta the most =TX and the fewest =AG
 
 For Denny's - Most
-
 ```{r}
 dn %>%
     count(state) %>%
@@ -106,7 +107,6 @@ dn %>%
 \textcolor{red}{DE, Delaware has the fewest locations. It is not surprising because it is one of the smallest US states by population.}
 
 For La Quinta - Most
-
 ```{r}
 lq %>%
     count(state) %>%
@@ -116,7 +116,6 @@ lq %>%
 \textcolor{red}{TX, Texas has the most La Quinta locations. The surprising thing is that Texas has more locations than California. This despite the fact that California has more population and has stronger economy than Texas}
 
 For La Quinta - Fewest
-
 ```{r}
 lq %>%
     count(state) %>%
